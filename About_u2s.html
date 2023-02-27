@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+   <title>About US</title>
+  <head>
+
+    <link rel="stylesheet" href="./style.css"><!--wse need this to referrence-->
+    <!-- <script src="./index.js">  </script> -->
+  </head>
+
+   <body>
+   
+     <head>
+
+      
+      <!--the head -->
+      <div style="background-color: cadetblue;">
+        <table style="width: 100%;">
+         
+          <tr>
+           <td>
+            <a href="index.html">
+              <img src="../codetribe/Assets/logo/EAtery.jpg"width="100px" alt="Eatery logo" style="border-radius: 50%;"/>
+            </a>
+            
+
+           </td>
+           <!--Nav_Bar-->
+           <td align="right"> 
+  
+              <nav style="margin-right: 50px;margin-top: 20px;margin-bottom: 20px;">
+                <a href="index.html"> Home</a>  <!--clicking ths, will give to home page,which is insdex-->
+                <a href="About_u2s.html" style="margin: 20px;">About us</a>
+                <a href="Contact_us.html">Contact us</a>
+              </nav>
+  
+           </td>
+          </tr>
+  
+         </table>
+
+      </div>
+       
+     </head>
+
+     <main class="maINclAsS">
+      <h1>   About us</h1>
+      <p id= "courses" style="font-size: medium;color: rgb(65, 12, 134); text-align: center;font-size: large;" ></p>
+      
+    
+      <!--<h1>Shopping list</h1>
+      <ul id="ShoppingListID">   Will need it in css when referencing->
+         <Li>Milk</Li>
+         <Li>Mangos</Li>
+         <Li>Avocados</Li>
+         <Li>Frigde</Li>
+          
+      </ul>-->
+    <!--this is just a comments--> 
+
+       <table id=" SkillList" border="0"height="10px" ><!--Name of or table to style it-->
+        <tr>
+          <td rowspan="1"><img src="./Assets/Icons/html-5.png " class="IconIMG" ;alt="html icon"></td> 
+            <td> <h3 class="SuBject">HTml:5</h3>  </td>
+          <td><p class=" ProFiciEncy">level 5</td>
+        </tr>
+
+        <tr >
+          <td rowspan="1"style="height: 10px;"><img src="./Assets/Icons/javascript.png  " class="IconIMG" ;alt="html Javascript"></td> 
+            <td> <h4 class="SuBject">Javascript</h4>  </td>
+           <td>  <p class=" ProFiciEncy">level 5</p>   </td>
+        </tr>
+     
+        <tr >
+          <td rowspan="1"><img src="./Assets/Icons/css.png  " class="IconIMG" ;alt="html CSS"></td> 
+            <td> <h3 class="SuBject">CSS</h3>  </td>
+          <td>   <p class=" ProFiciEncy">level 5</p>   </td>
+        </tr>
+         <tr>
+          <td rowspan="1"><Img src="./Assets/Icons/python-file.png" class="IconIMG"; alt="Python Icon"></td>
+            <td> <h3 class="SuBject">Python</h3>  </td>
+          <td>   <p class=" ProFiciEncy">level 5</p>   </td>
+        </tr>
+        <td rowspan="1"><Img src="./Assets/Icons/sql.png" class="IconIMG"; alt="SQL Icon"></td>
+          <td> <h3 class="SuBject">SQL</h3>  </td>
+        <td>   <p class=" ProFiciEncy">level 5</p>   </td>
+      </tr>
+         
+
+      </table>
+     <footer style="color: rgb(42, 92, 61);">
+      <table style="width: 100%;height:100px;background-color: rgb(127, 149, 182);" > 
+        <tr>
+
+          <td><b id="Address" style="padding-left:20vh ;"></b> </td>
+
+      </tr>
+      </table>
+     </footer>
+
+   </body>
+
+
+
+<!-- internal js -->
+<script>
+       const name = "BSc :Statistics and Operationa Research (2019)<br> Business Analysis certificate NQL6(2022";
+
+       const adress = 'Address: 15_BiccarAddressd ,Polokwane,0700';
+
+      document.getElementById('courses').innerHTML= name ;
+
+      document.getElementById('Address').innerHTML = adress;
+
+</script>
+</html>

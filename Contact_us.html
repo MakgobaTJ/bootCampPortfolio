@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+   <title>Contact_us</title>
+   <head>
+
+    <link rel="stylesheet" href="./style.css"><!--We need this on every page we going to be referencing something-->
+  </head>
+
+   <body>
+
+     <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!--the head -->
+      <div style="background-color: cadetblue;">
+        <table style="width: 100%;">
+         
+          <tr>
+           <td>
+            <a href="index.html">
+              <img src="../codetribe/Assets/logo/EAtery.jpg"width="100px" alt="Eatery logo"style="border-radius:50%";/>
+            </a>
+            
+
+           </td>
+           <!--Nav_Bar-->
+           <td align="right"> 
+  
+              <nav style="margin-right: 50px;margin-top: 20px;margin-bottom: 20px;">
+                <a href="index.html"> Home</a>
+                <a href="About_u2s.html" style="margin: 20px;">About us</a>
+                <a href="Contact_us.html">Contact us</a>
+              </nav>
+  
+  
+           </td>
+  
+          </tr>
+  
+         </table>
+
+      </div>
+       
+     </head>
+
+     <main style="height: 100vh;background-color: aqua;">
+      <h2 align="center">  Our Main Contact_us </h2>
+         <table  style="width: 100%;">
+          <tr >
+
+            <td style="padding-left:20vh ;">
+              <img src="./Assets/Icons/location.png" width="50px">
+
+            </td> 
+            <td>
+               <!-- <i class="fa fa-envelope" aria-hidden="true"></i></a>-->
+               <img src="./Assets/Icons/gmail.png"alt="Gmail icon"width="50px">
+            </td>
+            
+            <td>
+              <img src="./Assets/Icons/telephone-call.png"alt="Telephone icon" width="50px">
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding-left:20vh ;" id="Address-in-contact"></td>
+            <td>   MakgobaTJ1@gmail.com  </td>
+            <td>   071 377 1053 </td>
+          </tr>
+
+         </table>
+
+         <table align="Central" style="color: rgb(62, 66, 55);font-weight: bolder;">
+          <tr>
+            <td style="padding: 50px;">
+              <form>
+
+                 <Div style="padding:7px ;"> Name          :<input type="text" style="padding:7px ;border-radius: 10%;border-color: rgb(247, 227, 227);;">   <br></Div>
+                 <div style="padding:7px ;"> Surname       :<input type="text" style="padding:7px ;border-radius: 10%;border-color: rgb(255, 232, 232);"> <br></div>
+                 <div style="padding:7px ;">Email Address :<input type="email" style="padding:7px ;border-radius: 10%;border-color: rgb(240, 204, 204);"> <br> </div> 
+                 <div style="padding:7px ;">Phone no      :<input type="tel" style="padding:7px ;border-radius: 10%;border-color: rgb(253, 212, 212);"> <br></div> 
+                 <div style="padding:7px ;">Message       :<input type="textarea" style="padding:7px ;border-radius: 10%;border-color: rgb(247, 207, 207);"> <br><br></div> 
+                 <div style="padding:7px ;"> <input type="submit"  value="submit" style="padding:7px ;border-radius: 10%;border-color: rgb(245, 212, 212);"> </div>
+                           
+
+              </form>
+
+            </td>
+
+          </tr>
+
+
+         </table>
+     </main>
+
+     <!--this is just a comments-->
+     <footer>
+      <table style="width: 100%;height:100px;background-color: rgb(127, 149, 182);" > 
+        <tr>
+
+          <td style="padding-left:20vh ;"> 15 Biccard Street, Polokwane Central,0700 </td>
+
+        </tr>  
+        <div style="align-items: center;"></div>
+          <tr  style="align-items: center;"></tr>
+          <td ><a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook">     </i></a></td>
+          <td ><a href="https://twitter.com/?lang=en-za/"><i class="fa-brands fa-twitter"> </i></a></td>
+          <td ><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin">      </i></a></td>
+        </tr>
+        </div>
+      </table>      
+     </footer>
+
+   </body>
+
+
+
+<script>
+  let adrr="15 Biccard Street,<br> Polokwane Central, <br>Polokwane<br> 0700<br>Limpopo";
+  document.getElementById("Address-in-contact").innerHTML =adrr;
+</script>
+   
+</html>
